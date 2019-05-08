@@ -75,7 +75,7 @@ export class FileOpener extends IonicNativePlugin {
   appIsInstalled(packageId: string): Promise<any> {
     return;
   }
-  
+
   /**
    * Opens with system modal to open file with an already installed app.
    * @param {string} filePath File Path
